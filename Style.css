@@ -1,0 +1,242 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap') * {
+
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --px: 1px;
+}
+
+
+.h3-title {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(47, 28, 106);
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.section-card1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-card-top {
+    padding: 48px 32px;
+}
+
+.review-card-top p {
+    padding-top: 18px;
+    color: #2f1c6a;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.review-card-top a {
+    padding-top: 20px;
+}
+
+.review-card-bottom img {
+    width: 64px;
+    height: 64px;
+}
+
+.review-card-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.bi-star-fill {
+    color: #6A3EE5;
+    font-size: 20px;
+}
+
+.prueba {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 11px;
+}
+
+.Button {
+    padding-top: 18px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.Button a {
+    text-decoration: none;
+    color: rgb(103, 61, 230);
+    line-height: 24px;
+
+}
+
+.Ine-Agresta {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    size: 18px;
+    line-height: 24px;
+    color: rgb(47, 28, 106);
+}
+
+.Artista-Independiente {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(47, 28, 106);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.ejemplo {
+    color: #5025d1;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    padding: 0 380px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 {
+    border: 1px solid #D5DFFF;
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    height: 452px;
+    border-radius: 6px;
+}
+
+.bottom {
+    border-top: #D5DFFF solid 1px;
+    border-bottom: #D5DFFF solid 1px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 20px 32px;
+    background-color: #f4f5ff;
+}
+
+.review-card-top2 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32px;
+    height: 355px;
+}
+
+.review-card-top2 p {
+    padding-top: 18px;
+    color: #2f1c6a;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.bottom2 {
+    border-top: #D5DFFF solid 1px;
+    display: flex;
+    padding: 20px 32px;
+    height: 60px;
+    background-color: #f4f5ff;
+    border-bottom: #D5DFFF solid 1px;
+}
+
+.review-card-top3 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32px;
+    height: 355px;
+}
+
+.review-card-top3 p {
+    padding-top: 18px;
+    color: #2f1c6a;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.bottom3 {
+    border-top: #D5DFFF solid 1px;
+    display: flex;
+    padding: 20px 32px;
+    height: 60px;
+    background-color: #f4f5ff;
+    border-bottom: #D5DFFF solid 1px;
+}
+
+.h3-title {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+}
+
+.Button2 {
+    padding-top: 93px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.Button2 a {
+    padding-top: 90px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(103, 61, 230);
+    line-height: 24px;
+}
+
+.Button3 {
+    padding-top: 93px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.Button3 a {
+    padding-top: 93px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(103, 61, 230);
+    line-height: 24px;
+}
